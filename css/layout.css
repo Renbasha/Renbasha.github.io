@@ -37,6 +37,7 @@ header {
     background-color: #000;
     font-family: "playfair";
     letter-spacing: 0.5px;
+    font-size: 20px;
     color: #fff;
     margin: 0;
     padding: 0 40px;
@@ -171,13 +172,69 @@ header {
     box-shadow: 1px 8px 10px #a02c2c;
 }
 
+
+
 /* Footer */
 
+footer {
+    position: relative;
+    align-items: center;
+    height: 30vh;
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "playfair";
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    position: absolute;
+    margin: 0 0 0 440px;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-list ul {
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-list li {
+    margin: 0 10px;
+    position: relative;
+}
+
+.footer-list a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background-color 0.3 ease ;
+}
+
+.footer-list a:hover,
+.footer-list i:hover {
+    color: #a02c2c;
+}
+
+.infos-entreprise {
+    font-size: 15px;
+}
+
 .crop-container {
-    width: 300px;
+    width: 500px;
     height: 200px;
     overflow: hidden;
     position: relative;
+    margin-right: 800px;
 }
 
 .crop-container img {
@@ -185,7 +242,4 @@ header {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
