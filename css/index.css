@@ -87,7 +87,11 @@ section {
 }
 
 .btn-accueil,
-.btn-apropos{
+.btn-apropos,
+.btn-contact,
+.btn-portfolio,
+.btn-services,
+.btn-blog {
     width: 240px;
     height: 60px;
     border-radius: 120px / 30px;
@@ -104,7 +108,11 @@ section {
 }
 
 .btn-accueil:hover,
-.btn-apropos:hover {
+.btn-apropos:hover,
+.btn-contact:hover,
+.btn-portfolio:hover,
+.btn-services:hover,
+.btn-blog:hover {
     background-color: #fff;
     color: #a02c2c;
     box-shadow: 1px 8px 10px #a02c2c;
@@ -131,7 +139,20 @@ h1 {
     font-size: 40px;
 }
 
-h4 {
+.accueil {
+    color: #a02c2c;
+    font-size: 0;
+}
+
+h2, h4 {
     margin-top: 40px;
     font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.blog-contact {
+    text-align: center;
 }

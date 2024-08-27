@@ -1,13 +1,13 @@
 /* Main */
-main .section-apropos {
+main .section-pgapropos {
     margin-top: 80px;
 }
 
-.section-apropos {
+.section-pgapropos {
     height: 700px;
 }
 
-.section-apropos p {
+.section-pgapropos p {
     height: auto;
 }
 
