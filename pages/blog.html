@@ -12,57 +12,66 @@
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/portfolio.css">
     <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>RENBASHA | Blog en construction | Annecy</title>
 </head>
 <body>
     <div class="container">
   <!-- Entête -->
   <header class="header-site">  
-  <!-- Menu de navigation -->
-    <div class="header-nav">
-      <nav class="container nav-list">
-        <ul class="nav-menu">
-          <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li><span></span>
-          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li><span></span>
-          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li><span></span>
-          <li class="nav-item"><a class="nav-link" href="apropos.html">A Propos</a></li><span></span>
-          <li class="nav-item"><a class="nav-link" href="blog.html" class="active">Blog</a></li><span></span>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li><span></span>
-          <li class="nav-item">Tel : 07.44.77.25.79</li>
-        </ul>
-      </nav>
-    </div>
-    <!-- Banner -->
-    <div class="header-banner">
-      <div class="container banner-content">
-        <div class="banner-logo"><img src="img/renbasha_white.svg" alt="logo"></div>
-        <div class="banner-slogan">L'art de donner vie à votre imagination</div>
-        <button class="btn-accueil">ENTREZ</button>
+    <!-- Menu de navigation -->
+      <div class="header-nav" id="header-nav">
+        <nav class="container nav-list">
+          <ul class="nav-menu">
+            <li class="nav-item"><a class="nav-link" href="../index.html" class="active">Accueil</a></li><span class="separateur">|</span>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li><span class="separateur">|</span>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li><span class="separateur">|</span>
+            <li class="nav-item"><a class="nav-link" href="apropos.html">A Propos</a></li><span class="separateur">|</span>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li><span class="separateur">|</span>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li><span class="separateur">|</span>
+            <li class="nav-item">Tel : 07.44.77.25.79</li>
+          </ul>
+        </nav>
       </div>
-    </div>
-  </header>
+      <!-- Banner -->
+      <div class="header-banner">
+        <div class="container banner-content">
+          <div class="banner-logo">
+            <img src="../img/renbasha_original.webp" alt="logo" class="logo-original">
+          </div>
+          <div class="banner-slogan">
+            <p>L'Art de donner vie à votre imagination</p>
+          </div>
+        </div>
+      </div>
+    </header>
 
-  <div class="container">
+    <!-- Main -->
   <main id="main-blog">
-    <!-- Titre Princial de la Page -->
-    <h1 id="blog">BLOG</h1>
-    <p>BIENTÔT</p>   
+    <section class="section-blog">
+        <h2>BLOG</h2>
+        <p>J'y réfléchis, 
+            je vous avoue que je ne sais pas trop encore de quoi je vais parler, 
+            vu que je m'intéresse à beaucoup de choses et que je joue sur plusieurs tableaux ! 
+        Peut-être de tout....</p>
+      </section>
   </main>
-</div>
 
-  <footer class="footer-site">
-    <div class="container footer-content">
-      <img src="img/renbasha_white.svg" alt="logo">
+<footer class="footer-site">
+    <div class="crop-container"><img src="../img/renbasha_logo_white.webp" alt="logo">
+    </div>
+    <div class="footer-content">
       <ul class="footer-list">
-        <li><a href="footer-link">Navigation</a></li><span></span>
-        <li><a href="footer-link">Contact</a></li><span></span>
-        <li class="tiktok"><a href="footer-link"></a></li>
-        <li class="instagram"><a href="footer-link"></a></li>
-        <li class="linkedin"><a href="footer-link"></a></li>
+        <li><a href="#header-nav" class="footer-link">Navigation</a></li><span class="separateur">|</span>
+        <li><a href="../pages/contact.html" class="footer-link">Contact</a></li><span class="separateur">|</span>
+        <li class="tiktok"><a href="https://www.tiktok.com/@renbasha" class="footer-link"><i class="fa-brands fa-tiktok"></i> <!-- Icone de TikTok -->
+        </a></li>
+        <li class="instagram"><a href="https://www.instagram.com/renbasha?igsh=MXZ5djBid2Q4ZzRpaw==" class="footer-link"><i class="fa-brands fa-instagram"></i></a></li> <!-- Icone de Instagram -->
+        <li class="linkedin"><a href="https://www.linkedin.com/in/so-coding-renbasha-631a371b0" class="footer-link"><i class="fa-brands fa-linkedin"></i></a></li> <!-- Icone de Linkedin -->
       </ul>
+      <div class="infos-entreprise">RENBASHA Siret : Tous droits réservés</div>
     </div>
 
-    <div class="container infos-entreprise">RENBASHA Siret : Tous droits réservés</div>
 
   </footer>
 </div>

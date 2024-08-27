@@ -1,0 +1,10 @@
+/* Main */
+
+#main-blog {
+    margin-top: 80px;
+}
+.section-blog p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

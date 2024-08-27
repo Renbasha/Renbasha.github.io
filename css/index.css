@@ -1,6 +1,7 @@
 /* Main */
 
-#main-home {
+#main-home
+{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
