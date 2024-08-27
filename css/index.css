@@ -15,6 +15,75 @@ section {
     background-color: #fff;
     padding: 40px 140px;
 }
+/* Caroussel-container */
+.section-portfolio-home { 
+    background-color: #000; 
+    border: solid 3px #fff;
+    position: relative;
+}
+
+.caroussel {
+    position: absolute;
+    top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 250px;
+    overflow: hidden;
+}
+
+/* Caroussel-images */
+.portfolio-caroussel {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+/* Caroussel-image */
+.caroussel-images {
+    box-sizing: border-box;
+    padding: 10px;
+    flex: 0 0 20%;
+}
+
+.caroussel-images img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    aspect-ratio: 1 / 1;
+}
+
+.caroussel-images:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.arrow {
+    position: absolute;
+    top: 43%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow:hover {
+    color: #a02c2c;
+}
+
+.fa-caret-left {
+    left: 80px;
+}
+
+.fa-caret-right {
+    right: 80px;
+}
 
 .btn-accueil{
     width: 240px;
@@ -36,6 +105,10 @@ section {
     background-color: #fff;
     color: #a02c2c;
     box-shadow: 1px 8px 10px #a02c2c;
+}
+
+.btn-portfolio {
+    margin-top: 219px;
 }
 
 p {
