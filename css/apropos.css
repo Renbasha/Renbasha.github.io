@@ -1,0 +1,16 @@
+/* Main */
+main .section-apropos {
+    margin-top: 80px;
+}
+
+.section-apropos {
+    height: 700px;
+}
+
+.section-apropos p {
+    height: auto;
+}
+
+.container-btn-apropos {
+    margin-top: 15px;
+}

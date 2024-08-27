@@ -86,7 +86,8 @@ section {
     right: 80px;
 }
 
-.btn-accueil{
+.btn-accueil,
+.btn-apropos{
     width: 240px;
     height: 60px;
     border-radius: 120px / 30px;
@@ -102,7 +103,8 @@ section {
     margin-top: 40px;
 }
 
-.btn-accueil:hover {
+.btn-accueil:hover,
+.btn-apropos:hover {
     background-color: #fff;
     color: #a02c2c;
     box-shadow: 1px 8px 10px #a02c2c;
@@ -123,10 +125,13 @@ p {
     text-align: center;
 }
 
-h2 {
+h1 {
     font-family: "bodoni";
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
 }
 
-
+h4 {
+    margin-top: 40px;
+    font-size: 28px;
+}
