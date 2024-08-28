@@ -1,0 +1,79 @@
+/* Main */
+
+.container-services {
+    display: flex;
+    flex-direction: column;
+}
+#section-pgservices {
+    margin-top: 80px;
+}
+
+.section-packentreprise {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.section-packentreprise-container {
+    display: flex;
+    height: 250px;
+    border: 1px solid #a02c2c;
+}
+
+.section-packentreprise-content {
+    border: 1px solid #a02c2c;
+}
+
+.section-packentreprise-h2 {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.section-packentreprise li  {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.content-tab {
+    margin-top: 20px;
+}
+
+.section-pgservices {
+    height: 700px;
+}
+
+.section-pgservices p {
+    height: auto;
+}
+
+.container-btn-services {
+    margin-top: 15px;
+}
+
+.titre-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    background-color: #a02c2c;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    font-weight: bold;
+}
+
+.section-autres h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.section-autres p {
+    height: 30px;
+    margin-top: 0;
+    text-align: center;
+}
