@@ -105,6 +105,7 @@ section {
     border: none;
     box-shadow: 1px 8px 10px #000;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .btn-accueil:hover,
@@ -116,6 +117,7 @@ section {
     background-color: #fff;
     color: #a02c2c;
     box-shadow: 1px 8px 10px #a02c2c;
+    cursor: pointer;
 }
 
 .btn-portfolio {

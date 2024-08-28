@@ -1,0 +1,71 @@
+/* Main */
+
+.container-portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-valeurs {
+    display: flex;
+    margin-top: 80px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#section-portfolio {
+    margin-bottom: 0;
+    border: 3px solid #000;
+}
+
+#section-portfolio-devis {
+    border: 3px solid #d45353;
+}
+
+.valeurs-content {
+    width: 50%;
+    height: 54%;
+    position: absolute;
+    left: 23%;
+    top: 725px;
+}
+
+.valeurs-slogan {
+    /* margin-bottom: 25px; */
+    font-weight: bold;
+}
+
+.valeurs-slogan p {
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.psa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.psa-uc .btnpsa{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.content-psa {
+    margin-top: 150px;
+}
+
+/* Components */
+
+.container-btn-portfolio {
+    margin-top: 15px;
+}
+
+.btn-portfolio {
+    margin-top: 20px;
+    font-size: 32px;
+    width: 333px;
+    height: 83px;
+    border-radius: 50% / 50%;
+    margin-left: 65px;
+    margin-right: 65px;
+}

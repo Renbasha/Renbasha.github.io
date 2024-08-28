@@ -115,14 +115,16 @@ header {
     box-shadow: 1px 8px 10px #000;
 }
 
-.banner-logo {
+.banner-logo,
+.valeurs-logo {
     position: absolute;
     width: 100%;
     height: 100%;
     overflow: hidden;
     }
 
-.banner-logo img {
+.banner-logo img,
+.valeurs-logo img {
     width: 100%;
     height: 100%;
     position: absolute;
