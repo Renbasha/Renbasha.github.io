@@ -64,75 +64,11 @@ section {
     transition: 0.5s ease-in-out;
 }
 
-.arrow {
-    position: absolute;
-    top: 43%;
-    transform: translateY(-50%);
-    font-size: 2em;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.arrow:hover {
-    color: #a02c2c;
-}
-
-.fa-caret-left {
-    left: 80px;
-}
-
-.fa-caret-right {
-    right: 80px;
-}
-
-.btn-accueil,
-.btn-apropos,
-.btn-contact,
-.btn-portfolio,
-.btn-services,
-.btn-blog {
-    width: 240px;
-    height: 60px;
-    border-radius: 120px / 30px;
-    padding: 10px 30px;
-    background-color: #a02c2c;
-    color: #fff;
-    font-family: "roboto";
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    border: none;
-    box-shadow: 1px 8px 10px #000;
-    margin-top: 40px;
-    cursor: pointer;
-}
-
-.btn-accueil:hover,
-.btn-apropos:hover,
-.btn-contact:hover,
-.btn-portfolio:hover,
-.btn-services:hover,
-.btn-blog:hover {
-    background-color: #fff;
-    color: #a02c2c;
-    box-shadow: 1px 8px 10px #a02c2c;
-    cursor: pointer;
-}
-
-.btn-portfolio {
-    margin-top: 219px;
-}
-
 p {
     height: 70px;
     font-family: "lora";
     font-size: 20px;
     margin-top: 20px;
-}
-
-.container-btn {
-    text-align: center;
 }
 
 h1 {

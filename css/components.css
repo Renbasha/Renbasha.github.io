@@ -1,0 +1,132 @@
+/* Btn */
+
+.container-btn {
+    text-align: center;
+    /* margin-top: 240px; */
+}
+
+/* Btn Bannière */
+.btn-banner{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    border-radius: 120px / 30px;
+    padding: 10px 30px;
+    background-color: #a02c2c;
+    color: #fff;
+    font-family: "roboto";
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    bottom: 92px;
+    left: 500px;
+    border: none;
+    box-shadow: 1px 8px 10px #000;
+    cursor: pointer;
+}
+
+.btn-banner:hover {
+    background-color: #fff;
+    color: #a02c2c;
+    box-shadow: 1px 8px 10px #a02c2c;
+}
+
+/* Btn Sections Accueil */
+.btn-accueil,
+.btn-apropos,
+.btn-contact,
+.btn-portfolio,
+.btn-services,
+.btn-blog {
+    width: 240px;
+    height: 60px;
+    border-radius: 120px / 30px;
+    padding: 10px 30px;
+    background-color: #a02c2c;
+    color: #fff;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    box-shadow: 1px 8px 10px #000;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.btn-accueil:hover,
+.btn-apropos:hover,
+.btn-contact:hover,
+.btn-portfolio:hover,
+.btn-services:hover,
+.btn-blog:hover {
+    background-color: #fff;
+    color: #a02c2c;
+    box-shadow: 1px 8px 10px #a02c2c;
+    cursor: pointer;
+    width: auto;
+}
+
+.btn-portfolio {
+    margin-top: 219px;
+}
+
+.psa-uc .btnpsa{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container-btn-portfolio {
+    margin-top: 15px;
+}
+
+.btn-portfolio {
+    margin-top: 20px;
+    font-size: 32px;
+    width: 333px;
+    height: 83px;
+    border-radius: 50% / 50%;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.btn-devis {
+    width: 341px;
+    height: 85px;
+}
+
+.container-btn-services {
+    margin-top: 15px;
+}
+
+.container-btn-apropos {
+    margin-top: 15px;
+}
+
+.container-btn-contact {
+    margin-top: 15px;
+}
+
+/* Flêches caroussel */
+
+.arrow {
+    position: absolute;
+    top: 43%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow:hover {
+    color: #a02c2c;
+}
+
+.fa-caret-left {
+    left: 80px;
+}
+
+.fa-caret-right {
+    right: 80px;
+}

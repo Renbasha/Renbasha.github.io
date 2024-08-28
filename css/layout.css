@@ -68,11 +68,15 @@ header {
     transition: background-color 0.3 ease ;
 }
 
-.nav-list a:hover {
+.nav-item a:hover {
     background-color: #a02c2c;
     /* padding: 70px 20px; */
     width: 100%;
     box-sizing: border-box;
+}
+
+.nav-list .tel:hover {
+    background-color: #000;
 }
 
 .separateur {
@@ -149,32 +153,6 @@ header {
     text-align: center;
     margin: 0 140px;
 }
-
-.btn-banner{
-    position: absolute;
-    width: 240px;
-    height: 60px;
-    border-radius: 120px / 30px;
-    padding: 10px 30px;
-    background-color: #a02c2c;
-    color: #fff;
-    font-family: "roboto";
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    bottom: 92px;
-    left: 500px;
-    border: none;
-    box-shadow: 1px 8px 10px #000;
-}
-
-.btn-banner:hover {
-    background-color: #fff;
-    color: #a02c2c;
-    box-shadow: 1px 8px 10px #a02c2c;
-}
-
-
 
 /* Footer */
 
