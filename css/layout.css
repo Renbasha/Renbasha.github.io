@@ -69,7 +69,7 @@ header {
 }
 
 .nav-item a:hover {
-    background-color: #a02c2c;
+    /* background-color: #a02c2c; */
     /* padding: 70px 20px; */
     width: 100%;
     box-sizing: border-box;
@@ -88,12 +88,12 @@ header {
 /* Style de Survol */
 
 .nav-list li:hover {
-    background-color: #a02c2c;
+    /* background-color: #a02c2c; */
 }
 
 .nav-list li:hover a,
 .nav-list li:hover span {
-    background-color: #a02c2c;
+    /* background-color: #a02c2c; */
 }
 
 /* Bannière */
