@@ -70,8 +70,8 @@ header {
 
 .nav-item a:hover {
     /* background-color: #a02c2c; */
-    /* padding: 70px 20px; */
-    width: 100%;
+    /* padding: 70px 40px; */
+    /* width: 500px; */
     box-sizing: border-box;
 }
 
@@ -87,14 +87,16 @@ header {
 
 /* Style de Survol */
 
-.nav-list li:hover {
+.nav-item:hover {
     /* background-color: #a02c2c; */
+    background-color: #a02c2c;
+    padding: 70px 40px;
 }
 
-.nav-list li:hover a,
-.nav-list li:hover span {
-    /* background-color: #a02c2c; */
-}
+/* .nav-list li:hover a,
+.separateur:hover {
+    
+} */
 
 /* Bannière */
 
