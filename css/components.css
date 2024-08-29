@@ -2,7 +2,7 @@
 
 .container-btn {
     text-align: center;
-    /* margin-top: 240px; */
+    margin-top: 200px;
 }
 
 /* Btn Bannière */
@@ -91,7 +91,7 @@
 }
 
 .btn-devis {
-    width: 341px;
+    /* width: 341px; */
     height: 85px;
 }
 
