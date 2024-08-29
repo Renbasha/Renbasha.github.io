@@ -95,6 +95,12 @@
     height: 85px;
 }
 
+.btn-devis:hover {
+    background-color: #fff;
+    color: #a02c2c;
+    box-shadow: 1px 8px 10px #a02c2c;
+}
+
 .container-btn-services {
     margin-top: 15px;
 }
