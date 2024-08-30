@@ -1,3 +1,7 @@
-.section-pgblog p{
+section .section-pgblog {
+    height: 0;
+}
+
+.section-pgblog p {
     height: auto;
 }
