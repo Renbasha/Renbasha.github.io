@@ -13,28 +13,33 @@
 @font-face {
     font-family: 'montserrat';
     src: url(../fonts/montserrat/Montserrat-Bold.ttf) format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'roboto';
     src: url(../fonts/roboto/Roboto-Bold.ttf) format('truetype');
     src: url(../fonts/roboto/Roboto-Regular.ttf) format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'lora';
     src: url(../fonts/lora/Lora-Italic.ttf) format('truetype');
     src: url(../fonts/lora/Lora-Regular.ttf) format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'playfair';
     src: url(../fonts/playfair/PlayfairDisplay-Bold.ttf) format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'open';
     src: url(../fonts/open/OpenSans-Bold.ttf) format('truetype');
+    font-display: swap;
 }
 
 
