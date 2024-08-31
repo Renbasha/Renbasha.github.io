@@ -1,0 +1,383 @@
+/************************************************************************************************************************/
+/****************************************************** Index page ******************************************************/
+/************************************************************************************************************************/
+
+/* Main */
+
+#main-home
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+section {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 80px;
+    background-color: #fff;
+    padding: 40px 140px;
+}
+/* Caroussel-container */
+.section-portfolio-home { 
+    background-color: #000; 
+    border: solid 3px #fff;
+    position: relative;
+}
+
+.caroussel {
+    position: absolute;
+    top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 250px;
+    overflow: hidden;
+}
+
+/* Caroussel-images */
+.portfolio-caroussel {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+/* Caroussel-image */
+.caroussel-images {
+    box-sizing: border-box;
+    padding: 10px;
+    flex: 0 0 20%;
+}
+
+.caroussel-images img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    aspect-ratio: 1 / 1;
+    /* cursor: pointer; */
+}
+
+.caroussel-images:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    /* cursor: pointer; */
+}
+
+p {
+    height: 70px;
+    font-family: "lora";
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: "bodoni";
+    text-align: center;
+    font-size: 40px;
+}
+
+.accueil {
+    color: #a02c2c;
+    font-size: 0;
+}
+
+h2, h4 {
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.blog-contact {
+    text-align: center;
+}
+
+/************************************************************************************************************************/
+/**************************************************** Portfolio page ****************************************************/
+/************************************************************************************************************************/
+
+/* Main */
+
+.container-portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-valeurs {
+    display: flex;
+    margin-top: 80px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#section-portfolio {
+    margin-bottom: 0;
+    height: auto;
+}
+
+#section-portfolio-devis {
+    height: auto;
+}
+
+.valeurs-content {
+    width: 50%;
+    height: 54%;
+    position: absolute;
+    left: 23%;
+    top: 725px;
+}
+
+.valeurs-slogan {
+    font-weight: bold;
+}
+
+.valeurs-slogan p {
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.psa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-psa {
+    margin-top: 150px;
+}
+
+.portfolio-h3 {
+    font-weight: bold;
+    font-size: 64px;
+    font-family: "bodoni mt";
+}
+
+.portfolio-p {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "bodoni mt";
+}
+
+#section-portfolio-devis {
+    text-align: center;
+}
+
+/* Mosaique */
+.portfolio-mosaique {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.caroussel-image {
+    width: calc(33.33% - 10px);
+    overflow: hidden;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.caroussel-image img {
+    height: auto;
+    width: 100%;
+    display: block;
+    transition: transform ease-in-out 0.5s;
+}
+
+.caroussel-image:hover {
+    transform: scale(1.1);
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.rotate:hover {
+    transform: rotate(90deg) scale(1.1);
+}
+
+.livre {
+    width: 430px;
+    height: auto;
+}
+
+/************************************************************************************************************************/
+/***************************************************** Services page ****************************************************/
+/************************************************************************************************************************/
+
+/* Main */
+
+.container-services {
+    display: flex;
+    flex-direction: column;
+}
+#section-pgservices {
+    margin-top: 80px;
+}
+
+.section-packentreprise {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.section-packentreprise-container {
+    display: flex;
+    height: 250px;
+    border: 1px solid #a02c2c;
+}
+
+.section-packentreprise-content {
+    border: 1px solid #a02c2c;
+}
+
+.section-packentreprise-h2 {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.section-packentreprise li  {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.content-tab {
+    margin-top: 20px;
+}
+
+.section-pgservices {
+    height: 700px;
+}
+
+.section-pgservices p {
+    height: auto;
+}
+
+.titre-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    background-color: #a02c2c;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    font-weight: bold;
+}
+
+.section-autres h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.section-autres p {
+    height: 30px;
+    margin-top: 0;
+    text-align: center;
+}
+
+/************************************************************************************************************************/
+/**************************************************** A Propos page *****************************************************/
+/************************************************************************************************************************/
+
+/* Main */
+main .section-pgapropos {
+    margin-top: 80px;
+}
+
+.section-pgapropos {
+    height: 700px;
+}
+
+.section-pgapropos p {
+    height: auto;
+}
+
+/************************************************************************************************************************/
+/********************************************************* Blog *********************************************************/
+/************************************************************************************************************************/
+
+/* Main */
+
+#main-blog {
+    margin-top: 80px;
+}
+.section-pgblog p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/************************************************************************************************************************/
+/******************************************************** Contact *******************************************************/
+/************************************************************************************************************************/
+
+/* Main */
+
+main .section-pgcontact {
+    margin-top: 80px;
+    border: 3px solid #fff;
+}
+
+.section-pgcontact {
+    height: 600px;
+}
+
+.section-pgcontact p {
+    height: auto;
+    text-align: center;
+}
+
+.container-pgcontact {
+    border: #a02c2c solid 3px;
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre-contact {
+    font-weight: bold;
+}
+
+.titre-contact-bientot {
+    margin-bottom: 20px;
+}
+
+.coordonnees {
+    margin-top: auto;
+}
+
+/************************************************************************************************************************/
+/******************************************************* Mentions *******************************************************/
+/************************************************************************************************************************/
+
+section .section-pgmentions {
+    height: 0;
+}
+
+.section-pgmentions p {
+    height: auto;
+}
+
+#main-mentions {
+    margin-top: 80px;
+}
