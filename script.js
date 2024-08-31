@@ -6,8 +6,8 @@ if (window.top !== window.self) {
   
 const caroussel = document.querySelector('.caroussel');
 const slides = document.querySelectorAll('.caroussel-images');
-const leftArrow = document.querySelector('.fa-caret-left');
-const rightArrow = document.querySelector('.fa-caret-right');
+const leftArrow = document.querySelector('.left-arrow');
+const rightArrow = document.querySelector('.right-arrow');
 
 let currentIndex = 0;
 
