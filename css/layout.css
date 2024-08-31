@@ -101,6 +101,7 @@ header {
 /* Bannière */
 
 .header-banner {
+    width: auto;
     flex-grow: 1;
     background-image: url(../img/designer.webp);
     background-size: cover;
