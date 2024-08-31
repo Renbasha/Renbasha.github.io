@@ -1,7 +1,11 @@
-section .section-pgblog {
+section .section-pgmentions {
     height: 0;
 }
 
-.section-pgblog p {
+.section-pgmentions p {
     height: auto;
+}
+
+#main-mentions {
+    margin-top: 80px;
 }
