@@ -70,38 +70,6 @@ section {
     /* cursor: pointer; */
 }
 
-input[type="radio"] {
-    display: none; /* Masque les boutons radio */
-}
-
-#slide1:checked ~ .caroussel-slides {
-    transform: translateX(0%);
-}
-
-#slide2:checked ~ .caroussel-slides {
-    transform: translateX(-100%);
-}
-
-#slide3:checked ~ .caroussel-slides {
-    transform: translateX(-200%);
-}
-
-.caroussel-navigation {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-}
-
-.nav-arrow {
-    cursor: pointer;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    border: none;
-}
 
 p {
     height: 70px;
