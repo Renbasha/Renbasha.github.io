@@ -20,6 +20,7 @@ section {
     background-color: #fff;
     padding: 40px 140px;
 }
+
 /* Caroussel-container */
 .section-portfolio-home { 
     background-color: #000; 
@@ -371,8 +372,9 @@ main .section-pgcontact {
 /******************************************************* Mentions *******************************************************/
 /************************************************************************************************************************/
 
-section .section-pgmentions {
-    height: 0;
+.section-pgmentions {
+    height: auto;
+    text-align: justify;
 }
 
 .section-pgmentions p {
