@@ -497,7 +497,7 @@ main .section-pgcontact {
 }
 
 /* Styles mobile les téléphones */
- @media (min-width: 480) and (max-width: 768px) {
+ @media (max-width: 480px) {
     .header-banner {
         display: none;
     }
