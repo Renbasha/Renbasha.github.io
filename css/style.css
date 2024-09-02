@@ -444,88 +444,6 @@ main .section-pgcontact {
     }
 }
 
-/* Styles tablet */ 
-@media (min-width: 769px) and (max-width: 1023px) {
-    #section-portfolio-home,
-    #container-desktop {
-        display: block;
-    }
-    #container-mobile {
-        display: none;
-    }
-    .banner-slogan p {
-        font-size: 20px;
-        margin: auto;
-        /* margin: 30px 90px; */
-        width: 190px;
-    }
-    header {
-        height: 393px;
-        margin-top: 25px;
-    }
-    .banner-content {
-        width: 40%;
-        height: 44%;
-        /* top: 0; */
-    }
-    .btn-banner {
-        position: absolute;
-        left: 320px;
-        bottom: 40px;
-        width: 200px;
-        height: 50px;
-        border-radius: 100px / 25px;
-        font-size: 28px;
-    }
-    .banner-logo img {
-        bottom: 35px;
-    }
-    .caroussel {
-        width: 780px;
-        height: 150px;
-    }
-    section {
-        height: 250px;
-        margin-bottom: 40px;
-        padding: 0 50px;
-    }
-    #main-home {
-        margin-top: 40px;
-    }
-    .btn-accueil {
-        width: 200px;
-        height: 50px;
-        border-radius: 100px / 25px ;
-        margin-top: 60px;
-    }
-    h2 {
-        margin-top: 10px;
-        font-size: 18px;
-    }
-    .container-btn-caroussel-portfolio {
-        margin-top: 120px;
-    }
-    .infos-entreprise {
-        margin-top: 0;
-    }
-    .valeurs-slogan p {
-        font-size: 20px;
-    }
-    .livre {
-        width: 240px;
-    }
-    .btn-devis {
-        width: 200px;
-        height: 49px;
-    }
-    .portfolio-h3 {
-        font-size: 35px;
-    }
-    .portfolio-p {
-        font-size: 25px;
-    }
-}
-
 /* Styles mobile les téléphones portrait */
  @media (min-width: 390px) and (max-width: 768px) {
     #container-desktop {
@@ -691,4 +609,86 @@ main .section-pgcontact {
 
  }
 
+ /* Styles tablet */ 
+@media (min-width: 769px) and (max-width: 1023px) {
+    #section-portfolio-home,
+    #container-desktop {
+        display: block;
+    }
+    #container-mobile {
+        display: none;
+    }
+    .banner-slogan p {
+        font-size: 20px;
+        margin: auto;
+        /* margin: 30px 90px; */
+        width: 190px;
+    }
+    header {
+        height: 393px;
+        margin-top: 25px;
+    }
+    .banner-content {
+        width: 40%;
+        height: 44%;
+        /* top: 0; */
+    }
+    .btn-banner {
+        position: absolute;
+        left: 320px;
+        bottom: 40px;
+        width: 200px;
+        height: 50px;
+        border-radius: 100px / 25px;
+        font-size: 28px;
+    }
+    .banner-logo img {
+        bottom: 35px;
+    }
+    .caroussel {
+        width: 780px;
+        height: 150px;
+    }
+    section {
+        height: 250px;
+        margin-bottom: 40px;
+        padding: 0 50px;
+    }
+    #main-home {
+        margin-top: 40px;
+    }
+    .btn-accueil {
+        width: 200px;
+        height: 50px;
+        border-radius: 100px / 25px ;
+        margin-top: 60px;
+    }
+    h2 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .container-btn-caroussel-portfolio {
+        margin-top: 120px;
+    }
+    .infos-entreprise {
+        margin-top: 0;
+    }
+    .valeurs-slogan p {
+        font-size: 20px;
+    }
+    .livre {
+        width: 240px;
+    }
+    .btn-devis {
+        width: 200px;
+        height: 49px;
+    }
+    .portfolio-h3 {
+        font-size: 35px;
+    }
+    .portfolio-p {
+        font-size: 25px;
+        font-weight: 900;
+    }
+}
  
