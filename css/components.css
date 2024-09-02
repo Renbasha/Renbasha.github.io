@@ -145,43 +145,23 @@
 /******************************************************* Menu hamburger *******************************************************/
 /************************************************************************************************************************/
 
-/* Afficher le menu lorsque le checkbox est coché */
-.menu-hamb:checked + .menu-icon + .menu {
-    transform: translateX(0);
-}
-
-/* Styles pour le bouton hamburger */
-.menu-icon {
-    display: none; /* Masqué par défaut */
+/* Styles pour le menu hamburger */
+.menu-hamb {
+    display: none;
     cursor: pointer;
-    background: #333;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 30px;
     height: 30px;
-    position: relative;
-    z-index: 10;
 }
 
-.menu-icon .menu-line {
-    background: #fff;
+.menu-hamb .menu-line {
+    width: 25px;
     height: 3px;
-    width: 30px;
-    display: block;
-    position: absolute;
-    left: 0;
+    background-color: white;
+    margin: 3px 0;
 }
-
-.menu-icon .menu-line:nth-child(1) {
-    top: 0;
-}
-
-.menu-icon .menu-line:nth-child(2) {
-    top: 13px;
-}
-
-.menu-icon .menu-line:nth-child(3) {
-    top: 26px;
-}
-
 
 
 

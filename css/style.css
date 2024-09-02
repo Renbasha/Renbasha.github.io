@@ -497,21 +497,32 @@ main .section-pgcontact {
 }
 
 /* Styles mobile les téléphones */
- @media (min-width: 481) and (max-width: 768px) {
-    .menu {
-        display: block; /* Afficher le menu comme un bloc en mode mobile */
-    }
-
-    .menu-icon {
-        display: block; /* Afficher le bouton hamburger */
-    }
-
-    /* Cacher les éléments de menu par défaut */
-    .menu {
+ @media (min-width: 480) and (max-width: 768px) {
+    .nav-link {
         display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px; /* Ajustez en fonction de la hauteur de votre menu */
+        left: 0;
+        border-bottom: 2px solid red; /* Bordure inférieure visible quand ouvert */
     }
 
-    .menu-hamb:checked + .menu-icon + .menu {
-        display: block; /* Afficher le menu lorsque la checkbox est cochée */
+    .nav-link.show {
+        display: flex;
+    }
+
+    .nav-link li {
+        margin: 0;
+    }
+
+    .nav-link a {
+        padding: 15px;
+        border-bottom: 1px solid #444;
+    }
+
+    .menu-hamb {
+        display: flex;
     }
 }

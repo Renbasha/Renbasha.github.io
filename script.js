@@ -4,6 +4,14 @@ if (window.top !== window.self) {
     window.top.location = window.location;
   }
 
+  <script>
+document.getElementById('menu-hamb').addEventListener('click', function() {
+    var navLink = document.getElementById('nav-link');
+    navLink.classList.toggle('show');
+});
+</script>
+
+
 // Caroussel
 // const caroussel = document.querySelector('.caroussel');
 // const slides = document.querySelectorAll('.caroussel-images');
