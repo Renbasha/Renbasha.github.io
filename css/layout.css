@@ -92,9 +92,10 @@ header {
 .nav-item:hover {
     /* background-color: #a02c2c; */
     background-color: #a02c2c;
-    padding: 70px 40px;
+    /* padding: 70px 40px; */
     display: inline-block;
     white-space: nowrap;
+    /* height: auto; */
 }
 
 /* .nav-list li:hover a,
