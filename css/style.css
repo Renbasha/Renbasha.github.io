@@ -610,7 +610,7 @@ main .section-pgcontact {
  }
 
  /* Styles tablet */ 
-@media (min-width: 769px) and (max-width: 1023px) {
+/* @media (min-width: 769px) and (max-width: 1023px) {
     #section-portfolio-home,
     #container-desktop {
         display: block;
@@ -621,7 +621,6 @@ main .section-pgcontact {
     .banner-slogan p {
         font-size: 20px;
         margin: auto;
-        /* margin: 30px 90px; */
         width: 190px;
     }
     header {
@@ -631,7 +630,6 @@ main .section-pgcontact {
     .banner-content {
         width: 40%;
         height: 44%;
-        /* top: 0; */
     }
     .btn-banner {
         position: absolute;
@@ -688,7 +686,6 @@ main .section-pgcontact {
     }
     .portfolio-p {
         font-size: 25px;
-        font-weight: 900;
     }
 }
- 
+  */
