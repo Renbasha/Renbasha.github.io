@@ -497,11 +497,11 @@ main .section-pgcontact {
 }
 
 /* Styles mobile les téléphones */
- /* @media (max-width: 393px) {
+ @media (min-width: 390px) and (max-width: 768px) {
     #container-desktop {
     display: none;
     }
     #container-mobile {
     display: block;
     }
- } */
+ }
