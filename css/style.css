@@ -497,7 +497,7 @@ main .section-pgcontact {
 }
 
 /* Styles mobile les téléphones */
- @media (max-width: 480px) {
+ /* @media (max-width: 480px) {
     .header-banner {
         display: none;
     }
@@ -520,4 +520,4 @@ main .section-pgcontact {
     .change-modal {
         top: 0;
     }
- }
+ } */
