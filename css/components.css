@@ -146,22 +146,52 @@
 /************************************************************************************************************************/
 
 /* Styles pour le menu hamburger */
-.menu-hamb {
+.navbar-mobile {
     display: none;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
 }
 
-.menu-hamb .menu-line {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 3px 0;
+.navbar-mobile i {
+    position: fixed;
+    top: 9px;
+    right: 15px;
+    font-size: 3rem;
+    color: #fff;
 }
+
+.navbar-mobile .modal {
+    background-color: #a02c2c;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.navbar-mobile .navbar-mobile-list {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-mobile .navbar-mobile-list a {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #fff;
+    padding: 2rem;
+}
+
+.navbar-mobile i {
+    position: fixed;
+    z-index: 9999;
+    top: 9px;
+    right: 15px;
+    font-size: 3rem;
+    color: #fff;
+}
+
 
 
 
