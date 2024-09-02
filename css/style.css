@@ -336,7 +336,7 @@ main .section-pgapropos {
 
 main .section-pgcontact {
     margin-top: 80px;
-    border: 3px solid #fff;
+    /* border: 3px solid #fff; */
 }
 
 .section-pgcontact {
@@ -504,4 +504,120 @@ main .section-pgcontact {
     #container-mobile {
     display: block;
     }
+    header {
+        height: 0;
+        margin-top: 25px;
+    }
+    .banner-content {
+        width: 0;
+        height: 34%;
+        top: 25px;
+    }
+    .btn-banner {
+        display: block;
+        position: none;
+    }
+    main .section-pgapropos {
+        /* text-align: center; */
+        margin-top: 0;
+        height: auto;
+    }
+    .container-btn-apropos {
+        margin-bottom: 45px;
+    }
+    .valeurs-content {
+        width: 80%;
+        height: 87%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 2150px;
+        margin: auto;
+    }
+    .psa-uc {
+        margin-top: 0;
+        font-size: 32px;
+        width: 333px;
+        height: 83px;
+        border-radius: 50% / 50%;
+        margin-left: 65px;
+        margin-right: 65px;
+        cursor: inherit;
+    }
+    .valeurs-slogan p {
+        margin-top: 200px;
+        text-align: center;
+        width: 229px;
+        font-size: 20px;
+    }
+    .portfolio-mosaique {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .portfolio-p {
+        margin: auto;
+        width: 250px;
+    }
+    .btn-devis {
+        margin-bottom: 40px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .container-services {
+        text-align: center;
+    }
+    .section-packentreprise-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .content-tab {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .autres-services {
+        margin-bottom: 5px;
+    }
+    .btn-services {
+        margin-top: 30px;
+    }
+    main .section-pgcontact {
+        margin-top: 0;
+        height: auto;
+    }
+    #contact {
+        font-size: 35px;
+    }
+    .container-pgcontact {
+        width: 0px;
+        display: none;
+    }
+    .btn-contact {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+    .btn-mentions {
+        margin-top: 15px;
+    }
+    h2 {
+        font-family: "bodoni";
+        text-align: center;
+        font-size: 40px;
+        margin-top: 25px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 1.17em;
+    }
+    h5 {
+        font-size: 28px;
+    }
+
  }
+
+ 
