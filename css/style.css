@@ -611,8 +611,7 @@ main .section-pgcontact {
         font-size: 35px;
     }
     .container-pgcontact {
-        width: 0px;
-        display: none;
+        width: 300px;
     }
     .btn-contact {
         margin-top: 25px;
@@ -625,7 +624,7 @@ main .section-pgcontact {
         height: 300px;
     }
     footer {
-        height: 34vh;
+        height: 20vh;
         justify-content: center;
     }
     /* .footer-content {
