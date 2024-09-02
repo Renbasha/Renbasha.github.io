@@ -575,7 +575,8 @@ main .section-pgcontact {
     }
     .portfolio-p {
         margin: auto;
-        width: 300px;
+        width: 229px;
+        font-size: 20px;
     }
     .btn-devis {
         margin-bottom: 40px;
