@@ -497,27 +497,11 @@ main .section-pgcontact {
 }
 
 /* Styles mobile les téléphones */
- /* @media (max-width: 480px) {
-    .header-banner {
-        display: none;
+ /* @media (max-width: 393px) {
+    #container-desktop {
+    display: none;
     }
-    .nav-menu {
-        display: none;
-    }
-    .navbar-mobile {
-        display: block;
-    }
-    .modal {
-        transition: top 0.9s;
-        background-color: #a02c2c;
-        height: 100vh;
-        position: fixed;
-        top: -100vh;
-        left: 0;
-        width: 100%;
-        opacity: 0.9;
-    }
-    .change-modal {
-        top: 0;
+    #container-mobile {
+    display: block;
     }
  } */
