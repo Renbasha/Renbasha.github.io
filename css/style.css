@@ -441,7 +441,7 @@ main .section-pgcontact {
 }
 
 /* Styles tablet */ 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     #section-portfolio-home, 
     .btn-banner,
     .crop-container {
@@ -497,11 +497,21 @@ main .section-pgcontact {
 }
 
 /* Styles mobile les téléphones */
-/* @media (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
+ @media (min-width: 481) and (max-width: 768px) {
     .menu {
-        display: block;
+        display: block; /* Afficher le menu comme un bloc en mode mobile */
+    }
+
+    .menu-icon {
+        display: block; /* Afficher le bouton hamburger */
+    }
+
+    /* Cacher les éléments de menu par défaut */
+    .menu {
+        display: none;
+    }
+
+    .menu-hamb:checked + .menu-icon + .menu {
+        display: block; /* Afficher le menu lorsque la checkbox est cochée */
     }
 }
