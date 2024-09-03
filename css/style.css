@@ -445,12 +445,10 @@ main .section-pgcontact {
 }
 
 /* Styles tablet */ 
-@media (min-width: 769px) and (max-width: 1023px) {
-    #section-portfolio-home,
-    #container-desktop {
-        display: block;
-    }
-    #container-mobile {
+@media (max-width: 769px) {
+    #section-portfolio-home, 
+    .btn-banner,
+    .crop-container {
         display: none;
     }
     .banner-slogan p {
@@ -502,7 +500,7 @@ main .section-pgcontact {
     }
 }
 
-/* Styles mobile les téléphones portrait */
+/* Styles mobile les téléphones */
  @media (min-width: 390px) and (max-width: 768px) {
     #container-desktop {
     display: none;
