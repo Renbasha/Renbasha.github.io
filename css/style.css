@@ -517,6 +517,11 @@ main .section-pgcontact {
         height: 34%;
         top: 0;
     }
+    /* Slogan redmi */
+    .banner-slogan p {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
     .btn-banner {
         display: block;
         position: absolute;
