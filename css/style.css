@@ -587,11 +587,15 @@ main .section-pgcontact {
         text-align: center;
     }
     .section-packentreprise-container {
+        width: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: auto;
         margin-bottom: 35px;
+    }
+    .titre-tab {
+        width: 300px;
     }
     .content-tab {
         margin-bottom: 5px;
