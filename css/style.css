@@ -444,64 +444,7 @@ main .section-pgcontact {
     }
 }
 
-/* Styles mobiles paysage */
-@media (min-width: 769px) {
-    /* #section-portfolio-home, 
-    .btn-banner,
-    .crop-container {
-        display: none;
-    } */
-    #container-mobile {
-        display: none;
-    }
-    .banner-slogan p {
-        font-size: 20px;
-        margin: 30px 90px;
-    }
-    header {
-        height: 70vh;
-    }
-    section {
-        height: 250px;
-        margin-bottom: 40px;
-        padding: 0 50px;
-    }
-    #main-home {
-        margin-top: 40px;
-    }
-    .btn-accueil {
-        width: 200px;
-        height: 50px;
-        border-radius: 100px / 25px ;
-        margin-top: 60px;
-    }
-    h2 {
-        margin-top: 10px;
-        font-size: 18px;
-    }
-    .container-btn-caroussel-portfolio {
-        margin-top: 120px;
-    }
-    .footer-content {
-        margin: 0 100px;
-    }
-    .valeurs-slogan p {
-        font-size: 20px;
-    }
-    .livre {
-        width: 240px;
-    }
-    .btn-devis {
-        width: 200px;
-        height: 49px;
-    }
-    .portfolio-h3 {
-        font-size: 35px;
-    }
-    .portfolio-p {
-        font-size: 25px;
-    }
-}
+
 
 /* Styles tablet */ 
 /* @media (max-width: 769px) {
@@ -558,9 +501,10 @@ main .section-pgcontact {
         font-size: 25px;
     }
 } */
-
+/* **************************************************************************************** */
 /* Styles mobile les téléphones */
- @media (min-width: 390px) and (max-width: 768px) {
+/* **************************************************************************************** */
+ @media (min-width: 414px) and (max-width: 768px) {
     #container-desktop {
     display: none;
     }
@@ -568,7 +512,7 @@ main .section-pgcontact {
     display: block;
     }
     header {
-        height: 793px;
+        height: 860px;
         margin-top: 25px;
     }
     .banner-content {
@@ -578,8 +522,7 @@ main .section-pgcontact {
     }
     /* Slogan redmi */
     .banner-slogan p {
-        margin-right: 50px;
-        margin-left: 50px;
+        margin: 10px 50px;
     }
     .btn-banner {
         display: block;
@@ -732,5 +675,68 @@ main .section-pgcontact {
     }
 
  }
+/* **************************************************************************************** */
+ /* Styles mobiles paysage */
+/* **************************************************************************************** */
 
+@media (min-width: 769px) and (max-width: 940px){
+    /* #section-portfolio-home, 
+    .btn-banner,
+    .crop-container {
+        display: none;
+    } */
+    /* #container-desktop {
+        display: block;
+    } */
+    #container-mobile {
+        display: none;
+    }
+    .banner-slogan p {
+        font-size: 20px;
+        margin: 30px 90px;
+    }
+    header {
+        height: 90vh;
+    }
+    section {
+        height: 250px;
+        margin-bottom: 40px;
+        padding: 0 50px;
+    }
+    #main-home {
+        margin-top: 40px;
+    }
+    .btn-accueil {
+        width: 200px;
+        height: 50px;
+        border-radius: 100px / 25px ;
+        margin-top: 60px;
+    }
+    h2 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .container-btn-caroussel-portfolio {
+        margin-top: 120px;
+    }
+    .footer-content {
+        margin: 0 100px;
+    }
+    .valeurs-slogan p {
+        font-size: 20px;
+    }
+    .livre {
+        width: 240px;
+    }
+    .btn-devis {
+        width: 200px;
+        height: 49px;
+    }
+    .portfolio-h3 {
+        font-size: 35px;
+    }
+    .portfolio-p {
+        font-size: 25px;
+    }
+}
  
