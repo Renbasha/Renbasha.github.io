@@ -455,34 +455,10 @@ main .section-pgcontact {
     }
     .banner-slogan p {
         font-size: 20px;
-        margin: auto;
-        /* margin: 30px 90px; */
-        width: 190px;
+        margin: 30px 90px;
     }
     header {
-        height: 393px;
-        margin-top: 25px;
-    }
-    .banner-content {
-        width: 40%;
-        height: 44%;
-        /* top: 0; */
-    }
-    .btn-banner {
-        position: absolute;
-        left: 320px;
-        bottom: 40px;
-        width: 200px;
-        height: 50px;
-        border-radius: 100px / 25px;
-        font-size: 28px;
-    }
-    .banner-logo img {
-        bottom: 35px;
-    }
-    .caroussel {
-        width: 780px;
-        height: 150px;
+        height: 70vh;
     }
     section {
         height: 250px;
@@ -505,8 +481,8 @@ main .section-pgcontact {
     .container-btn-caroussel-portfolio {
         margin-top: 120px;
     }
-    .infos-entreprise {
-        margin-top: 0;
+    .footer-content {
+        margin: 0 100px;
     }
     .valeurs-slogan p {
         font-size: 20px;
