@@ -504,7 +504,7 @@ main .section-pgcontact {
 /* **************************************************************************************** */
 /* Styles mobile les téléphones */
 /* **************************************************************************************** */
- @media (min-width: 414px) and (max-width: 768px) {
+ @media (min-width: 414px) and (max-width: 768px) and (orientation: landscape) {
     #container-desktop {
     display: none;
     }
@@ -679,15 +679,8 @@ main .section-pgcontact {
  /* Styles mobiles paysage */
 /* **************************************************************************************** */
 
-@media (min-width: 769px) and (max-width: 940px){
-    /* #section-portfolio-home, 
-    .btn-banner,
-    .crop-container {
-        display: none;
-    } */
-    /* #container-desktop {
-        display: block;
-    } */
+/* @media (min-width: 769px) and (max-width: 940px){
+    
     #container-mobile {
         display: none;
     }
@@ -739,4 +732,4 @@ main .section-pgcontact {
         font-size: 25px;
     }
 }
- 
+  */
