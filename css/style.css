@@ -398,7 +398,7 @@ main .section-pgcontact {
 /************************************************************************************************************************/
 
 /* Styles desktop */ 
- @media (max-width: 1024px) {
+ /* @media (max-width: 1024px) {
     .header-nav {
         font-size: 13px;
     }
@@ -446,11 +446,64 @@ main .section-pgcontact {
     .section-pgapropos {
         height: 850px;
     }
-}
+} */
 
 /* Pour les tablettes en portrait et paysage */
 @media (min-width: 768px) and (max-width: 1024px) {
     /* Styles spécifiques aux tablettes */
+    /* #container-desktop {
+        display: block;
+        } */
+        #container-mobile {
+        display: none;
+        }
+    .header-nav {
+        font-size: 13px;
+    }
+    .nav-list li {
+        margin: 0;
+    }
+    .banner-slogan p {
+        font-size: 30px;
+        margin: 20px 90px;
+    }
+    .btn-banner {
+        bottom: 150px;
+        left: 350px;
+    }
+    .crop-container {
+        margin-right: 0;
+        width: 400px;
+        height: 160px;
+    }
+    .footer-content {
+        margin: 0 0 0 300px;
+    }
+    .footer-list li {
+        margin: 0;
+    }
+    .caroussel {
+        width: 700px;
+        top: 0;
+    }
+    .valeurs-logo img {
+        position: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .psa-uc .btn-psa {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .valeurs-slogan p {
+        font-size: 30px;
+    }
+    .caroussel-image img {
+        width: 95%;
+    }
+    .section-pgapropos {
+        height: 850px;
+    }
 }
 
 /* Pour les smartphones en paysage */

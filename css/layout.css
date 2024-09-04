@@ -4,6 +4,7 @@
     width: 95%;
     margin: auto;
     overflow: hidden;
+    height: 100%;
 }
 
 header, footer {
@@ -90,11 +91,28 @@ header {
 /* Style de Survol */
 
 .nav-item:hover {
-    /* background-color: #a02c2c; */
     background-color: #a02c2c;
-    padding: 70px 40px;
+    padding: 24px 40px;
+    /* margin-right: 20px;
+    margin-left: 20px; */
     display: inline-block;
     white-space: nowrap;
+}
+/* Enlever les marges des séparateurs avant et après l'élément survolé */
+.nav-item:hover ~ li .separateur,
+.nav-item:hover + .separateur {
+    margin: 0; /* Enlève la marge des séparateurs adjacents */
+}
+
+/* Enlever les marges des séparateurs avant et après l'élément actif */
+.nav-link.active + .separateur,
+.nav-item .nav-link.active:hover + .separateur,
+.nav-item:hover .separateur {
+    margin: 0; /* Enlève la marge des séparateurs autour de l'élément actif */
+}
+
+.nav-link.active {
+    background-color: yellow;
 }
 
 /* .nav-list li:hover a,
