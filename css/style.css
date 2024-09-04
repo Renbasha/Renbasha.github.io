@@ -591,6 +591,7 @@ main .section-pgcontact {
     }
     #section-portfolio {
         margin-bottom: 0;
+        padding: 0;
     }
     #section-portfolio-devis {
         height: 0;
@@ -604,6 +605,12 @@ main .section-pgcontact {
     }
     .section-pgmentions {
         padding: 40px;
+    }
+    .rotate {
+        margin-right: 50px;
+    }
+    .portfolio-p {
+        height: 128px;
     }
     /* .footer-content {
         margin-left: 17%;
