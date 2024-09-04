@@ -471,13 +471,17 @@ main .section-pgcontact {
     .nav-list li {
         margin: 0;
     }
+    .banner-content {
+        width: 70%;
+        height: 40%;
+    }
     .banner-slogan p {
         font-size: 30px;
-        margin: 20px 90px;
+        margin: 25px 115px;
     }
     .btn-banner {
-        bottom: 150px;
-        left: 350px;
+        bottom: 220px;
+        left: 200px;
     }
     .crop-container {
         margin-right: 0;
@@ -491,8 +495,35 @@ main .section-pgcontact {
         margin: 0;
     }
     .caroussel {
-        width: 700px;
+        width: 600px;
         top: 25px;
+        right: 60px;
+    }
+    .caroussel-image img {
+        width: 95%;
+    }
+    .section-apropos-home {
+        height: 380px;
+    }
+    .section-services-home h2,
+    .section-apropos-home h2,
+    .section-blog h2,
+    .section-contact h2 {
+        margin-top: 0;
+    }
+    .section-services-home p,
+    .section-apropos-home p {
+        height: auto;
+        width: 550px;
+        padding-right: 75px;
+        text-align: justify;
+    }
+    .section-blog,
+    .section-contact {
+        height: 290px;
+    }
+    .btn-accueil {
+        margin-top: 20px;
     }
     .container-btn-caroussel-portfolio {
         margin-top: 160px;
@@ -509,12 +540,43 @@ main .section-pgcontact {
     .valeurs-slogan p {
         font-size: 30px;
     }
-    .caroussel-image img {
-        width: 95%;
-    }
     .section-pgapropos {
         height: 850px;
     }
+    .footer-content {
+        margin: 0 0 0 200px;
+    }
+    .crop-container {
+        margin-right: 510px;
+        height: 760px;
+        /* margin-bottom: 90px; */
+    }
+    footer {
+        height: 25vh;
+    }
+    /* .footer-content {
+        margin-left: 17%;
+    } */
+    /* .footer-list {
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .footer-list span {
+        display: none;
+    }
+    .reseaux {
+        margin-top: 20px;
+    }
+    .tiktok,
+    .instagram,
+    .linkedin {
+        display: inline-block;
+    }
+    .infos-entreprise {
+        text-align: center;
+        font-size: 15px;
+        width: 250px;
+    } */
 }
 
 /* Pour les smartphones en paysage */
