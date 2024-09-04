@@ -451,9 +451,6 @@ main .section-pgcontact {
 /* Pour les tablettes en portrait et paysage */
 @media (min-width: 768px) and (max-width: 1024px) {
     /* Styles spécifiques aux tablettes */
-    /* #container-desktop {
-        display: block;
-        } */
         #container-mobile {
         display: none;
         }
@@ -514,9 +511,9 @@ main .section-pgcontact {
 /* Pour les smartphones en portrait */
 @media (max-width: 414px) {
     /* Styles spécifiques aux petits écrans */
-    #container-desktop {
+    /* #container-desktop {
         display: none;
-        }
+        } */
         #container-mobile {
         display: block;
         }

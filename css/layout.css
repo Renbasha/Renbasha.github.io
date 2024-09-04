@@ -48,6 +48,9 @@ header {
     white-space: nowrap;
 }
 
+/* .nav-list {
+    display: flex;
+} */
 .nav-list ul {
     list-style-type: none;
     height: 80px;
@@ -97,22 +100,23 @@ header {
     display: inline-block;
     white-space: nowrap;
 }
+
 /* Enlever les marges des séparateurs avant et après l'élément survolé */
-.nav-item:hover ~ li .separateur,
+/* .nav-item:hover ~ li .separateur,
 .nav-item:hover + .separateur {
-    margin: 0; /* Enlève la marge des séparateurs adjacents */
+    margin: 0; Enlève la marge des séparateurs adjacents
 }
 
-/* Enlever les marges des séparateurs avant et après l'élément actif */
+Enlever les marges des séparateurs avant et après l'élément actif
 .nav-link.active + .separateur,
 .nav-item .nav-link.active:hover + .separateur,
 .nav-item:hover .separateur {
-    margin: 0; /* Enlève la marge des séparateurs autour de l'élément actif */
+    margin: 0; Enlève la marge des séparateurs autour de l'élément actif
 }
 
 .nav-link.active {
     background-color: yellow;
-}
+} */
 
 /* .nav-list li:hover a,
 .separateur:hover {
