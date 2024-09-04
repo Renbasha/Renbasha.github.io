@@ -211,6 +211,10 @@ h2 {
     height: 500px;
 }
 
+.myst {
+    height: 500px;
+}
+
 .rotate {
     transform: rotate(90deg);
 }
@@ -259,7 +263,7 @@ h2 {
 
 .section-packentreprise-h2 {
     width: 500px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .section-packentreprise li  {
