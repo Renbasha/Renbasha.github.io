@@ -179,7 +179,8 @@ Enlever les marges des séparateurs avant et après l'élément actif
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin: 0 140px;
+    /* margin: 0 140px;  version 1024 */
+    margin: 10px 130px;
 }
 
 /* Footer */
