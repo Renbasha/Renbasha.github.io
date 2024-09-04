@@ -457,6 +457,9 @@ main .section-pgcontact {
     .header-nav {
         font-size: 13px;
     }
+    .nav-item:hover {
+        padding: 30px 40px;
+    }
     .nav-list li {
         margin: 0;
     }
@@ -481,7 +484,10 @@ main .section-pgcontact {
     }
     .caroussel {
         width: 700px;
-        top: 0;
+        top: 25px;
+    }
+    .container-btn-caroussel-portfolio {
+        margin-top: 160px;
     }
     .valeurs-logo img {
         position: 0;
@@ -504,9 +510,9 @@ main .section-pgcontact {
 }
 
 /* Pour les smartphones en paysage */
-@media (max-width: 768px) and (orientation: landscape) {
-    /* Styles spécifiques aux mobiles en paysage */
-}
+/* @media (max-width: 768px) and (orientation: landscape) {
+    Styles spécifiques aux mobiles en paysage
+} */
 
 /* Pour les smartphones en portrait */
 @media (max-width: 414px) {
