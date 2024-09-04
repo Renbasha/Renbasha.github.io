@@ -499,9 +499,9 @@ main .section-pgcontact {
         top: 25px;
         right: 60px;
     }
-    .caroussel-image img {
+    /* .caroussel-image img {
         width: 95%;
-    }
+    } */
     .section-apropos-home {
         height: 380px;
     }
@@ -553,6 +553,18 @@ main .section-pgcontact {
     }
     footer {
         height: 25vh;
+    }
+    .tortilla {
+        height: 250px;
+    }
+    
+    .myst {
+        height: 300px;
+    }
+    .section-packentreprise {
+        padding: 0;
+        margin-bottom: 80px;
+        height: 1220px;
     }
     /* .footer-content {
         margin-left: 17%;
