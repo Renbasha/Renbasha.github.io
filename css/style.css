@@ -594,7 +594,8 @@ main .section-pgcontact {
         padding: 0;
     }
     #section-portfolio-devis {
-        height: 0;
+        /* height: 0; */
+        height: auto;
     }
     main .section-pgapropos {
         padding: 40px;
@@ -611,6 +612,9 @@ main .section-pgcontact {
     }
     .portfolio-p {
         height: 128px;
+    }
+    .btn-blog {
+        margin-top: 56px;
     }
     /* .footer-content {
         margin-left: 17%;
