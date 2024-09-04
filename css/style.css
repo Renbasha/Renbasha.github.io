@@ -207,6 +207,10 @@ h2 {
     transform: scale(1.1);
 }
 
+.tortilla {
+    height: 750px;
+}
+
 .rotate {
     transform: rotate(90deg);
 }
@@ -285,7 +289,7 @@ h2 {
     color: #fff;
     text-align: center;
     height: 50px;
-    width: 250px;
+    /* width: 250px; Version 1024 */
     font-weight: bold;
 }
 

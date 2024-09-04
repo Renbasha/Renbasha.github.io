@@ -22,7 +22,8 @@
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-    bottom: 92px;
+    /* bottom: 92px; version 1024 */
+    bottom: 140px;
     left: 500px;
     border: none;
     box-shadow: 1px 8px 10px #000;
