@@ -549,7 +549,7 @@ main .section-pgcontact {
     .crop-container {
         margin-right: 510px;
         height: 760px;
-        /* margin-bottom: 90px; */
+        margin-bottom: 90px;
     }
     footer {
         height: 25vh;
