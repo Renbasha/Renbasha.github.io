@@ -485,7 +485,7 @@ main .section-pgcontact {
     .banner-slogan p {
         font-size: 20px;
         margin: 0 131px;
-        color: aqua;
+        color: rgb(170, 255, 0);
     }
     .btn-banner {
         top: 300px;
@@ -512,9 +512,15 @@ main .section-pgcontact {
         margin: 0;
     }
     .caroussel {
-        width: 600px;
+        width: 700px;
         top: 25px;
-        right: 60px;
+        right: 90px;
+    }
+    .container-btn-caroussel-portfolio {
+        margin-top: 180px;
+    }
+    .section-services-home p, .section-apropos-home p {
+        padding-right: 0;
     }
     /* .caroussel-image img {
         width: 95%;
@@ -532,12 +538,15 @@ main .section-pgcontact {
     .section-apropos-home p {
         height: auto;
         width: 550px;
-        padding-right: 75px;
         text-align: justify;
     }
     .section-blog,
     .section-contact {
-        height: 290px;
+        height: auto;
+    }
+    #pages-blog,
+    #pages-contact {
+        margin-top: 0;
     }
     .btn-accueil {
         margin-top: 20px;
@@ -560,16 +569,19 @@ main .section-pgcontact {
     .section-pgapropos {
         height: 850px;
     }
-    .footer-content {
+    /* .footer-content {
         margin: 0 0 0 200px;
-    }
+    } */
     .crop-container {
         margin-right: 510px;
         height: 760px;
         /* margin-bottom: 90px; */
     }
     footer {
-        height: 25vh;
+        height: 40vh;
+    }
+    .infos-entreprise {
+        margin-top: 0;
     }
     .tortilla {
         height: 250px;
