@@ -476,18 +476,30 @@ main .section-pgcontact {
         margin: 0;
     }
     .banner-content {
-        width: 70%;
+        width: 50%;
         height: 40%;
     }
+    .banner-logo img {
+        bottom: 35px;
+    }
     .banner-slogan p {
-        font-size: 30px;
-        margin: 25px 115px;
+        font-size: 20px;
+        margin: 0 131px;
         color: aqua;
     }
     .btn-banner {
+        top: 300px;
+        left: 300px;
+    }
+    /* .banner-slogan p {
+        font-size: 30px;
+        margin: 25px 115px;
+        color: aqua;
+    } */
+    /* .btn-banner {
         bottom: 220px;
         left: 200px;
-    }
+    } */
     .crop-container {
         margin-right: 0;
         width: 400px;
