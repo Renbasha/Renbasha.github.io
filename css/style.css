@@ -546,7 +546,7 @@ main .section-pgcontact {
     }
     #pages-blog,
     #pages-contact {
-        margin-top: 0;
+        margin-top: 45px;
     }
     .btn-accueil {
         margin-top: 20px;
@@ -593,7 +593,7 @@ main .section-pgcontact {
     .section-packentreprise {
         padding: 0;
         margin-bottom: 80px;
-        height: 1220px;
+        height: 1150px;
     }
     #section-valeurs {
         justify-content: center;
@@ -649,7 +649,13 @@ main .section-pgcontact {
         font-size: 39px;
         height: 90px;
         margin-top: 0;
-        width: 650px;
+        width: 640px;
+    }
+    #services {
+        margin-top: 20px;
+    }
+    .h2-pckenter {
+        margin-top: 0;
     }
     main .section-pgapropos {
         padding: 40px;
