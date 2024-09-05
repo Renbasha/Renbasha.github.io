@@ -653,7 +653,7 @@ main .section-pgcontact {
     }
     .portfolio-p {
         font-size: 25px;
-        height: 90px;
+        height: 60px;
         margin-top: 0;
         width: 620px;
     }
@@ -681,6 +681,10 @@ main .section-pgcontact {
     }
     .section-packentreprise-container {
         margin-bottom: 25px;
+    }
+    .container-btn-mentions-landscape,
+    .btn-mentions-landscape {
+        margin: 0;
     }
     /* .footer-content {
         margin-left: 17%;
