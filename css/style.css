@@ -457,7 +457,7 @@ main .section-pgcontact {
 } */
 
 /* Pour les tablettes en portrait et paysage */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     /* Styles spécifiques aux tablettes */
         #container-mobile {
         display: none;
@@ -641,6 +641,15 @@ main .section-pgcontact {
     } */
 }
 
+@media (min-width: 501px) and (max-width: 768px) {
+    /* Styles pour les écrans entre 500px et 768px */
+    #container-desktop {
+        display: block;
+        }
+        #container-mobile {
+        display: none;
+        }
+}
 /* Pour les smartphones en paysage */
 /* @media (max-width: 768px) and (orientation: landscape) {
     Styles spécifiques aux mobiles en paysage
@@ -748,7 +757,7 @@ main .section-pgcontact {
         }
         .portfolio-p {
             margin: auto;
-            width: 229px;
+            width: auto;
             font-size: 23px;
         }
         .btn-devis {
