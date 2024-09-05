@@ -457,7 +457,7 @@ main .section-pgcontact {
 } */
 
 /* Pour les tablettes en portrait et paysage */
-@media (min-width: 932px) and (max-width: 1024px) {
+@media (min-width: 832px) and (max-width: 1024px) {
     /* Styles spécifiques aux tablettes */
         #container-mobile {
         display: none;
