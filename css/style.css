@@ -606,9 +606,17 @@ main .section-pgcontact {
         bottom: 125px;
         left: 8%;
     }
+   
+/* .valeurs-content {
+    width: 80%;
+    height: 54%;
+    left: 23%;
+} */
+    
     .valeurs-content {
-        position: relative;
-        top: 890px;
+        position: static;
+        /* top: 890px; */
+        width: 80%;
     }
     .btn-portfolio {
         margin-left: 5px;
@@ -632,13 +640,15 @@ main .section-pgcontact {
     #section-portfolio-devis {
         /* height: 0; */
         height: auto;
-        padding: 20px 140px;
+        padding: 40px 140px;
     }
     .portfolio-h3 {
         font-size: 44px;
     }
     .portfolio-p {
         font-size: 39px;
+        height: 90px;
+        margin-top: 0;
     }
     main .section-pgapropos {
         padding: 40px;
