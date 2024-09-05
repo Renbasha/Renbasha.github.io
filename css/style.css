@@ -878,6 +878,8 @@ main .section-pgcontact {
         }
         main .section-pgmentions { 
             margin-top: 40px;
+            display: flex;
+            flex-direction: column;
         }
         .btn-mentions-mobiles {
             bottom: auto;
