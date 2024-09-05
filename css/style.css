@@ -603,7 +603,7 @@ main .section-pgcontact {
     }
     .valeurs-logo img {
         width: 80%;
-        bottom: 105px;
+        bottom: 85px;
         left: 8%;
     }
    
@@ -649,7 +649,7 @@ main .section-pgcontact {
         font-size: 39px;
         height: 90px;
         margin-top: 0;
-        width: 400px;
+        width: 600px;
     }
     main .section-pgapropos {
         padding: 40px;
