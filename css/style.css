@@ -546,7 +546,7 @@ main .section-pgcontact {
     }
     #pages-blog,
     #pages-contact {
-        margin-top: 45px;
+        margin-top: 5px;
     }
     .btn-accueil {
         margin-top: 20px;
@@ -567,7 +567,10 @@ main .section-pgcontact {
         font-size: 30px;
     }
     .section-pgapropos {
-        height: 850px;
+        height: 700px;
+    }
+    .btn-apropos {
+        margin-top: 15px;
     }
     /* .footer-content {
         margin: 0 0 0 200px;
@@ -649,7 +652,7 @@ main .section-pgcontact {
         font-size: 39px;
         height: 90px;
         margin-top: 0;
-        width: 640px;
+        width: 620px;
     }
     #services {
         margin-top: 20px;
