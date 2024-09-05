@@ -457,7 +457,7 @@ main .section-pgcontact {
 } */
 
 /* Pour les tablettes en portrait et paysage */
-@media (min-width: 432px) and (max-width: 1024px) {
+@media (min-width: 332px) and (max-width: 1024px) {
     /* Styles spécifiques aux tablettes */
         #container-mobile {
         display: none;
@@ -478,7 +478,7 @@ main .section-pgcontact {
     .banner-slogan p {
         font-size: 30px;
         margin: 25px 115px;
-        color: rgb(255, 242, 0);
+        color: aqua;
     }
     .btn-banner {
         bottom: 220px;
