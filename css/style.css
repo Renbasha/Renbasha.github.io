@@ -584,11 +584,11 @@ main .section-pgcontact {
         margin-top: 0;
     }
     .tortilla {
-        height: 250px;
+        height: 400px;
     }
     
     .livre {
-        width: 150px;
+        width: 300px;
     }
     .section-packentreprise {
         padding: 0;
@@ -597,10 +597,17 @@ main .section-pgcontact {
     }
     #section-valeurs {
         justify-content: center;
+        flex-direction: column;
         padding: 0;
         height: 500px;
     }
+    .valeurs-logo img {
+        width: 80%;
+        bottom: 125px;
+        left: 8%;
+    }
     .valeurs-content {
+        position: relative;
         top: 890px;
     }
     .btn-portfolio {
@@ -625,6 +632,13 @@ main .section-pgcontact {
     #section-portfolio-devis {
         /* height: 0; */
         height: auto;
+        padding: 20px 140px;
+    }
+    .portfolio-h3 {
+        font-size: 44px;
+    }
+    .portfolio-p {
+        font-size: 39px;
     }
     main .section-pgapropos {
         padding: 40px;
