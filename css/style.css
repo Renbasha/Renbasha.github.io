@@ -649,6 +649,21 @@ main .section-pgcontact {
         #container-mobile {
         display: none;
         }
+        .banner-content {
+        width: 0;
+        height: 40%;
+        }
+        .banner-logo img {
+            bottom: 40px;
+        }
+        .banner-slogan p {
+            font-size: 20px;
+            margin: 0 131px;
+        }
+        .btn-banner {
+            top: 300px;
+            left: 300px;
+        }
 }
 /* Pour les smartphones en paysage */
 /* @media (max-width: 768px) and (orientation: landscape) {
