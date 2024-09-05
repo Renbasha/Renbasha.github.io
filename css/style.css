@@ -757,9 +757,9 @@ main .section-pgcontact {
         }
         .portfolio-p {
             margin: auto;
-            width: 450px;
+            width: 350px;
             font-size: 23px;
-            color: rgb(255, 251, 0);
+            color: rgb(238, 0, 255);
         }
         .btn-devis {
             margin-top: 30px;
