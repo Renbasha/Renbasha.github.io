@@ -649,14 +649,14 @@ main .section-pgcontact {
 /* Pour les smartphones en portrait */
 @media (max-width: 414px) {
     /* Styles spécifiques aux petits écrans */
-    /* #container-desktop {
+    #container-desktop {
         display: none;
-        } */
+        }
         #container-mobile {
         display: block;
         }
         header {
-            height: 860px;
+            height: 793px;
             margin-top: 25px;
         }
         .banner-content {
@@ -666,7 +666,8 @@ main .section-pgcontact {
         }
         /* Slogan redmi */
         .banner-slogan p {
-            margin: 10px 50px;
+            margin: 2% 50px;
+            font-size: 32px;
         }
         .btn-banner {
             display: block;
@@ -676,17 +677,26 @@ main .section-pgcontact {
         }
         main .section-pgapropos {
             text-align: center;
-            margin-top: 0;
+            margin-top: 40px;
             height: auto;
+            padding: 40px 40px;
+            margin-bottom: 40px;
+        }
+        #main-home {
+            margin: 0;
         }
         .h5 {
             margin-top: 40px;
         }
         .container-btn-apropos {
-            margin-bottom: 65px;
+            margin-bottom: 0;
+        }
+        .btn-apropos {
+            margin-top: 0;
         }
         #section-valeurs {
             margin-top: 0;
+            padding: 0 140px;
         }
         .valeurs-content {
             width: 80%;
@@ -706,7 +716,6 @@ main .section-pgcontact {
         .psa-uc {
             margin-top: 0;
             font-size: 32px;
-            width: 333px;
             height: 83px;
             border-radius: 50% / 50%;
             margin-left: 65px;
@@ -723,19 +732,35 @@ main .section-pgcontact {
             flex-direction: column;
             align-items: center;
             gap: 15px;
+            margin-top: 40px;
+        }
+        .livre {
+            width: calc(33.33% - 10px);
+        }
+        #section-portfolio-devis {
+            padding-top: 0;
+            margin-bottom: 40px;
+        }
+        .portfolio-h3 {
+            margin-top: 0;
+            font-size: 40px;
         }
         .portfolio-p {
             margin: auto;
             width: 229px;
-            font-size: 20px;
+            font-size: 23px;
         }
         .btn-devis {
-            margin-bottom: 40px;
             margin-top: 30px;
             font-size: 16px;
         }
         .container-services {
             text-align: center;
+        }
+        .section-packentreprise {
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-bottom: 0;
         }
         .section-packentreprise-container {
             width: auto;
@@ -743,7 +768,10 @@ main .section-pgcontact {
             justify-content: center;
             align-items: center;
             height: auto;
-            margin-bottom: 35px;
+        }
+        .section-autres {
+            margin-bottom: 40px;
+            height: auto;
         }
         .titre-tab {
             width: 300px;
@@ -756,11 +784,20 @@ main .section-pgcontact {
             margin-bottom: 5px;
         }
         .btn-services {
-            margin-top: 30px;
+            margin-top: 0;
         }
         main .section-pgcontact {
             margin-top: 0;
             height: auto;
+            padding: 10px 0;
+            margin-bottom: 40px;
+        }
+        main .section-pgcontact h2 {
+            font-size: 30px;
+        }
+        main .section-pgcontact p {
+            padding-left: 30px;
+            padding-right: 30px;
         }
         #contact {
             font-size: 35px;
@@ -776,15 +813,23 @@ main .section-pgcontact {
             margin-bottom: 25px;
         }
         .section-pgblog {
-            height: 300px;
+            padding: 0;
+            height: auto;
+            margin-bottom: 40px;
+        }
+        .btn-blog {
+            margin-top: 20px;
         }
         footer {
             height: 20vh;
             justify-content: center;
         }
-        /* .footer-content {
-            margin-left: 17%;
-        } */
+        .footer-content {
+            margin: 0;
+        }
+         .crop-container {
+            display: none;
+         }
         .footer-list {
             flex-direction: column;
             margin-bottom: 5px;
@@ -799,7 +844,7 @@ main .section-pgcontact {
         }
         .infos-entreprise {
             text-align: center;
-            font-size: 15px;
+            font-size: 5px;
             /* width: 250px; */
         }
         h2 {
@@ -816,6 +861,15 @@ main .section-pgcontact {
         }
         h5 {
             font-size: 28px;
+        }
+        .section-pgmentions {
+            padding: 20px 20px;
+        }
+        main .section-pgmentions { 
+            margin-top: 40px;
+        }
+        .btn-mentions-mobiles {
+            border: 3px solid yellow;
         }
 }
 
