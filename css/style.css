@@ -478,6 +478,7 @@ main .section-pgcontact {
     .banner-slogan p {
         font-size: 30px;
         margin: 25px 115px;
+        color: aqua;
     }
     .btn-banner {
         bottom: 220px;
