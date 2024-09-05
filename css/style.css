@@ -647,7 +647,7 @@ main .section-pgcontact {
 } */
 
 /* Pour les smartphones en portrait */
-@media (max-width: 430px) {
+@media (max-width: 393px) {
     /* Styles spécifiques aux petits écrans */
     #container-desktop {
         display: none;
