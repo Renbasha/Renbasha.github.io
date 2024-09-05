@@ -315,6 +315,7 @@ h2 {
 /* Main */
 main .section-pgapropos {
     margin-top: 80px;
+    text-align: justify;
 }
 
 .section-pgapropos {
@@ -485,7 +486,6 @@ main .section-pgcontact {
     .banner-slogan p {
         font-size: 20px;
         margin: 0 131px;
-        color: rgb(170, 255, 0);
     }
     .btn-banner {
         top: 300px;
@@ -762,7 +762,6 @@ main .section-pgcontact {
         .banner-slogan p {
             margin: 2% 50px;
             font-size: 32px;
-            color: rgb(255, 0, 238);
         }
         .btn-banner {
             display: block;
@@ -844,7 +843,6 @@ main .section-pgcontact {
             margin: auto;
             width: 300px;
             font-size: 23px;
-            color: rgb(255, 251, 0);
         }
         .btn-devis {
             margin-top: 30px;
@@ -970,7 +968,6 @@ main .section-pgcontact {
             bottom: auto;
             left: 125px;
             margin-top: -60px;
-            color: greenyellow;
         }
 }
 
