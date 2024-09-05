@@ -745,7 +745,7 @@ main .section-pgcontact {
             color: greenyellow;
         }
 }
-@media (min-width: 332px) and (max-width: 1024px) {
+@media (min-width: 501px) and (max-width: 1024px) {
     /* Styles spécifiques aux tablettes */
         #container-mobile {
         display: none;
