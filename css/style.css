@@ -668,6 +668,7 @@ main .section-pgcontact {
         .banner-slogan p {
             margin: 2% 50px;
             font-size: 32px;
+            color: yellow;
         }
         .btn-banner {
             display: block;
