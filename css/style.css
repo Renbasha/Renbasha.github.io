@@ -874,13 +874,15 @@ main .section-pgcontact {
             font-size: 28px;
         }
         .section-pgmentions {
-            padding: 20px 20px;
+            padding: 40px 20px;
         }
         main .section-pgmentions { 
             margin-top: 40px;
         }
         .btn-mentions-mobiles {
-            border: 3px solid yellow;
+            bottom: auto;
+            left: 125px;
+            margin-top: -60px;
         }
 }
 
