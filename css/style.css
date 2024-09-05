@@ -572,6 +572,9 @@ main .section-pgcontact {
     .btn-apropos {
         margin-top: 15px;
     }
+    .container-btn-blog {
+        margin: 50px;
+    }
     /* .footer-content {
         margin: 0 0 0 200px;
     } */
@@ -649,7 +652,7 @@ main .section-pgcontact {
         font-size: 44px;
     }
     .portfolio-p {
-        font-size: 39px;
+        font-size: 25px;
         height: 90px;
         margin-top: 0;
         width: 620px;
@@ -675,6 +678,9 @@ main .section-pgcontact {
     }
     .btn-blog {
         margin-top: 56px;
+    }
+    .section-packentreprise-container {
+        margin-bottom: 25px;
     }
     /* .footer-content {
         margin-left: 17%;
