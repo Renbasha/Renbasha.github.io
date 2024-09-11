@@ -48,9 +48,6 @@ header {
     white-space: nowrap;
 }
 
-/* .nav-list {
-    display: flex;
-} */
 .nav-list ul {
     list-style-type: none;
     height: 80px;
@@ -74,9 +71,6 @@ header {
 }
 
 .nav-item a:hover {
-    /* background-color: #a02c2c; */
-    /* padding: 70px 40px; */
-    /* width: 500px; */
     box-sizing: border-box;
 }
 
@@ -95,33 +89,9 @@ header {
 .nav-item:hover {
     background-color: #a02c2c;
     padding: 24px 40px;
-    /* margin-right: 20px;
-    margin-left: 20px; */
     display: inline-block;
     white-space: nowrap;
 }
-
-/* Enlever les marges des séparateurs avant et après l'élément survolé */
-/* .nav-item:hover ~ li .separateur,
-.nav-item:hover + .separateur {
-    margin: 0; Enlève la marge des séparateurs adjacents
-}
-
-Enlever les marges des séparateurs avant et après l'élément actif
-.nav-link.active + .separateur,
-.nav-item .nav-link.active:hover + .separateur,
-.nav-item:hover .separateur {
-    margin: 0; Enlève la marge des séparateurs autour de l'élément actif
-}
-
-.nav-link.active {
-    background-color: yellow;
-} */
-
-/* .nav-list li:hover a,
-.separateur:hover {
-    
-} */
 
 /* Bannière */
 
@@ -179,7 +149,6 @@ Enlever les marges des séparateurs avant et après l'élément actif
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    /* margin: 0 140px;  version 1024 */
     margin: 10px 130px;
 }
 

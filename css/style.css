@@ -62,13 +62,11 @@ section {
     object-fit: cover;
     display: block;
     aspect-ratio: 1 / 1;
-    /* cursor: pointer; */
 }
 
 .caroussel-images:hover {
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
-    /* cursor: pointer; */
 }
 
 
@@ -248,7 +246,6 @@ h2 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* margin-bottom: 0; */
 }
 
 .section-packentreprise-container {
@@ -293,7 +290,6 @@ h2 {
     color: #fff;
     text-align: center;
     height: 50px;
-    /* width: 250px; Version 1024 */
     font-weight: bold;
 }
 
@@ -349,7 +345,6 @@ main .section-pgapropos {
 
 main .section-pgcontact {
     margin-top: 80px;
-    /* border: 3px solid #fff; */
 }
 
 .section-pgcontact {
@@ -406,64 +401,10 @@ main .section-pgcontact {
 /************************************************************************************************************************/
 /************************************************************************************************************************/
 
-/* Styles desktop */ 
- /* @media (max-width: 1024px) {
-    .header-nav {
-        font-size: 13px;
-    }
-    .nav-list li {
-        margin: 0;
-    }
-    .banner-slogan p {
-        font-size: 30px;
-        margin: 20px 90px;
-    }
-    .btn-banner {
-        bottom: 150px;
-        left: 350px;
-    }
-    .crop-container {
-        margin-right: 0;
-        width: 400px;
-        height: 160px;
-    }
-    .footer-content {
-        margin: 0 0 0 300px;
-    }
-    .footer-list li {
-        margin: 0;
-    }
-    .caroussel {
-        width: 700px;
-        top: 0;
-    }
-    .valeurs-logo img {
-        position: 0;
-        bottom: 0;
-        left: 0;
-    }
-    .psa-uc .btn-psa {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .valeurs-slogan p {
-        font-size: 30px;
-    }
-    .caroussel-image img {
-        width: 95%;
-    }
-    .section-pgapropos {
-        height: 850px;
-    }
-} */
-
 /* Pour les tablettes en portrait et paysage */
-/* @media (min-width: 332px) and (max-width: 1024px) { Delete ou rétablir à voir*/ 
-    /* Styles spécifiques aux tablettes */
 /* Pour les tablettes et les smartphones en mode paysage */
 @media (min-width: 501px) and (max-width: 1024px), 
        (max-width: 768px) and (orientation: landscape) {
-    /* Styles spécifiques aux tablettes et smartphones en paysage */
         #container-mobile {
         display: none;
         }
@@ -491,15 +432,6 @@ main .section-pgcontact {
         top: 300px;
         left: 300px;
     }
-    /* .banner-slogan p {
-        font-size: 30px;
-        margin: 25px 115px;
-        color: aqua;
-    } */
-    /* .btn-banner {
-        bottom: 220px;
-        left: 200px;
-    } */
     .crop-container {
         margin-right: 0;
         width: 400px;
@@ -522,9 +454,6 @@ main .section-pgcontact {
     .section-services-home p, .section-apropos-home p {
         padding-right: 0;
     }
-    /* .caroussel-image img {
-        width: 95%;
-    } */
     .section-apropos-home {
         height: 380px;
     }
@@ -575,13 +504,9 @@ main .section-pgcontact {
     .container-btn-blog {
         margin: 50px;
     }
-    /* .footer-content {
-        margin: 0 0 0 200px;
-    } */
     .crop-container {
         margin-right: 510px;
         height: 760px;
-        /* margin-bottom: 90px; */
     }
     footer {
         height: 40vh;
@@ -612,16 +537,8 @@ main .section-pgcontact {
         bottom: 85px;
         left: 8%;
     }
-   
-/* .valeurs-content {
-    width: 80%;
-    height: 54%;
-    left: 23%;
-} */
-    
     .valeurs-content {
         position: static;
-        /* top: 890px; */
         width: 80%;
     }
     .btn-portfolio {
@@ -644,7 +561,6 @@ main .section-pgcontact {
         padding: 0;
     }
     #section-portfolio-devis {
-        /* height: 0; */
         height: auto;
         padding: 40px 140px;
     }
@@ -686,59 +602,7 @@ main .section-pgcontact {
     .btn-mentions-landscape {
         margin: 0;
     }
-    /* .footer-content {
-        margin-left: 17%;
-    } */
-    /* .footer-list {
-        flex-direction: column;
-        margin-bottom: 5px;
-    }
-    .footer-list span {
-        display: none;
-    }
-    .reseaux {
-        margin-top: 20px;
-    }
-    .tiktok,
-    .instagram,
-    .linkedin {
-        display: inline-block;
-    }
-    .infos-entreprise {
-        text-align: center;
-        font-size: 15px;
-        width: 250px;
-    } */
 }
-
-/* @media (min-width: 501px) and (max-width: 768px) {
-    Styles pour les écrans entre 500px et 768px
-    #container-desktop {
-        display: block;
-        }
-        #container-mobile {
-        display: none;
-        }
-        .banner-content {
-        width: 0;
-        height: 40%;
-        }
-        .banner-logo img {
-            bottom: 40px;
-        }
-        .banner-slogan p {
-            font-size: 20px;
-            margin: 0 131px;
-        }
-        .btn-banner {
-            top: 300px;
-            left: 300px;
-        }
-} */
-/* Pour les smartphones en paysage */
-/* @media (max-width: 768px) and (orientation: landscape) {
-    Styles spécifiques aux mobiles en paysage
-} */
 
 /* Pour les smartphones en portrait */
 @media (max-width: 500px) {
@@ -939,7 +803,6 @@ main .section-pgcontact {
         .infos-entreprise {
             text-align: center;
             font-size: 5px;
-            /* width: 250px; */
         }
         h2 {
             font-family: "bodoni";
@@ -971,273 +834,3 @@ main .section-pgcontact {
         }
 }
 
-
-
-/* Styles tablet */ 
-/* @media (max-width: 769px) {
-    #section-portfolio-home, 
-    .btn-banner,
-    .crop-container {
-        display: none;
-    }
-    .banner-slogan p {
-        font-size: 20px;
-        margin: 30px 90px;
-    }
-    header {
-        height: 70vh;
-    }
-    section {
-        height: 250px;
-        margin-bottom: 40px;
-        padding: 0 50px;
-    }
-    #main-home {
-        margin-top: 40px;
-    }
-    .btn-accueil {
-        width: 200px;
-        height: 50px;
-        border-radius: 100px / 25px ;
-        margin-top: 60px;
-    }
-    h2 {
-        margin-top: 10px;
-        font-size: 18px;
-    }
-    .container-btn-caroussel-portfolio {
-        margin-top: 120px;
-    }
-    .footer-content {
-        margin: 0 100px;
-    }
-    .valeurs-slogan p {
-        font-size: 20px;
-    }
-    .livre {
-        width: 240px;
-    }
-    .btn-devis {
-        width: 200px;
-        height: 49px;
-    }
-    .portfolio-h3 {
-        font-size: 35px;
-    }
-    .portfolio-p {
-        font-size: 25px;
-    }
-} */
-/* **************************************************************************************** */
-/* Styles mobile */
-/* **************************************************************************************** */
- /* @media (min-width: 414px) and (max-width: 768px) and (orientation: landscape) {
-    
-    .banner-slogan p {
-        margin: 10px 50px;
-    }
-    .btn-banner {
-        display: block;
-        position: absolute;
-        left: 50px;
-        bottom: 200px;
-    }
-    main .section-pgapropos {
-        text-align: center;
-        margin-top: 0;
-        height: auto;
-    }
-    .h5 {
-        margin-top: 40px;
-    }
-    .container-btn-apropos {
-        margin-bottom: 65px;
-    }
-    #section-valeurs {
-        margin-top: 0;
-    }
-    .valeurs-content {
-        width: 80%;
-        height: 87%;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 2150px;
-        margin: auto;
-    }
-    .valeurs-logo {
-        display: none;
-    }
-    .content-psa {
-        margin-top: 20px;
-    }
-    .psa-uc {
-        margin-top: 0;
-        font-size: 32px;
-        width: 333px;
-        height: 83px;
-        border-radius: 50% / 50%;
-        margin-left: 65px;
-        margin-right: 65px;
-        cursor: inherit;
-    }
-    .valeurs-slogan p {
-        margin-top: 180px;
-        text-align: center;
-        width: 229px;
-        font-size: 20px;
-    }
-    .portfolio-mosaique {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
-    .portfolio-p {
-        margin: auto;
-        width: 229px;
-        font-size: 20px;
-    }
-    .btn-devis {
-        margin-bottom: 40px;
-        margin-top: 30px;
-        font-size: 16px;
-    }
-    .container-services {
-        text-align: center;
-    }
-    .section-packentreprise-container {
-        width: auto;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-        margin-bottom: 35px;
-    }
-    .titre-tab {
-        width: 300px;
-    }
-    .content-tab {
-        margin-bottom: 5px;
-        margin-top: 5px;
-    }
-    .autres-services {
-        margin-bottom: 5px;
-    }
-    .btn-services {
-        margin-top: 30px;
-    }
-    main .section-pgcontact {
-        margin-top: 0;
-        height: auto;
-    }
-    #contact {
-        font-size: 35px;
-    }
-    .container-pgcontact {
-        width: 300px;
-    }
-    .btn-contact {
-        margin-top: 25px;
-        margin-bottom: 40px;
-    }
-    .btn-mentions {
-        margin-bottom: 25px;
-    }
-    .section-pgblog {
-        height: 300px;
-    }
-    footer {
-        height: 20vh;
-        justify-content: center;
-    }
-    .footer-list {
-        flex-direction: column;
-        margin-bottom: 5px;
-    }
-    .reseaux {
-        margin-top: 20px;
-    }
-    .tiktok,
-    .instagram,
-    .linkedin {
-        display: inline-block;
-    }
-    .infos-entreprise {
-        text-align: center;
-        font-size: 15px;
-    }
-    h2 {
-        font-family: "bodoni";
-        text-align: center;
-        font-size: 40px;
-        margin-top: 25px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    h4 {
-        font-size: 1.17em;
-    }
-    h5 {
-        font-size: 28px;
-    }
-
- } */
-/* **************************************************************************************** */
- /* Styles mobiles paysage */
-/* **************************************************************************************** */
-
-/* @media (min-width: 769px) and (max-width: 940px){
-    
-    #container-mobile {
-        display: none;
-    }
-    .banner-slogan p {
-        font-size: 20px;
-        margin: 30px 90px;
-    }
-    header {
-        height: 90vh;
-    }
-    section {
-        height: 250px;
-        margin-bottom: 40px;
-        padding: 0 50px;
-    }
-    #main-home {
-        margin-top: 40px;
-    }
-    .btn-accueil {
-        width: 200px;
-        height: 50px;
-        border-radius: 100px / 25px ;
-        margin-top: 60px;
-    }
-    h2 {
-        margin-top: 10px;
-        font-size: 18px;
-    }
-    .container-btn-caroussel-portfolio {
-        margin-top: 120px;
-    }
-    .footer-content {
-        margin: 0 100px;
-    }
-    .valeurs-slogan p {
-        font-size: 20px;
-    }
-    .livre {
-        width: 240px;
-    }
-    .btn-devis {
-        width: 200px;
-        height: 49px;
-    }
-    .portfolio-h3 {
-        font-size: 35px;
-    }
-    .portfolio-p {
-        font-size: 25px;
-    }
-}
-  */

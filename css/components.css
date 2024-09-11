@@ -22,7 +22,6 @@
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-    /* bottom: 92px; version 1024 */
     bottom: 140px;
     left: 500px;
     border: none;
@@ -68,12 +67,7 @@
     color: #a02c2c;
     box-shadow: 1px 8px 10px #a02c2c;
     cursor: pointer;
-    /* width: auto; */
 }
-
-/* .btn-portfolio {
-    margin-top: 219px;
-} */
 
 .psa-uc .btnpsa{
     margin-left: 15px;
@@ -130,10 +124,6 @@
     z-index: 10;
 }
 
-/* .arrow:hover {
-    color: #a02c2c;
-} */
-
 .fa-diamond {
     left: 80px;
 }
@@ -141,67 +131,3 @@
 .fa-diamond {
     right: 80px;
 }
-
-/************************************************************************************************************************/
-/******************************************************* Menu hamburger *******************************************************/
-/************************************************************************************************************************/
-
-/* Styles pour le menu hamburger */
-/* .navbar-mobile {
-    display: none;
-}
-
-.navbar-mobile i {
-    position: fixed;
-    top: 9px;
-    right: 15px;
-    font-size: 3rem;
-    color: #fff;
-}
-
-.navbar-mobile .modal {
-    background-color: #a02c2c;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0.9;
-}
-
-.navbar-mobile .navbar-mobile-list {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar-mobile .navbar-mobile-list a {
-    font-size: 5rem;
-    font-weight: 800;
-    color: #fff;
-    padding: 2rem;
-}
-
-.navbar-mobile i {
-    position: fixed;
-    z-index: 9999;
-    top: 9px;
-    right: 15px;
-    font-size: 3rem;
-    color: #fff;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
