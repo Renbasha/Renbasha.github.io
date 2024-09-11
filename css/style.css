@@ -545,7 +545,7 @@ main .section-pgcontact {
         height: auto;
     }
     #pages-blog,
-    #pages-contact {
+    .pages-contact {
         margin-top: 5px;
     }
     .btn-accueil {
